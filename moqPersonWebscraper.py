@@ -7,7 +7,7 @@ browser = webdriver.Chrome(chromedriverpath)
  
 url = "http://www.fakenamegenerator.com/gen-random-ar-gr.php"
  
-iterations = 5000
+iterations = 20
  
 for x in range(iterations):
     browser.get(url)
